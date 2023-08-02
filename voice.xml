@@ -1,0 +1,6 @@
+<Response>
+    <Say voice="alice" language="pt-BR">Olá! Esta é uma mensagem de teste em português.</Say>
+    <Gather input="speech" language="pt-BR" timeout="5" action="/processar-resposta">
+        <Say voice="alice">Por favor, digite 1 para continuar ou 2 para sair.</Say>
+    </Gather>
+</Response>
