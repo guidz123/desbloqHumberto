@@ -1,3 +1,7 @@
 <Response>
-    <Say voice="alice" language="pt-BR">Olá, esta é uma mensagem personalizada do Twilio. Obrigado por ligar.</Say>
+    <Gather numDigits="2" action="/processar-entrada" method="POST">
+        <Say voice="alice">
+            Pressione 2 para continuar.
+        </Say>
+    </Gather>
 </Response>
